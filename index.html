@@ -4,109 +4,152 @@
     <title>Scheilla Artifon</title>
     <meta charset="utf-8">
     <link href="assets/img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="container">
         <img src="assets/images/logotipo.png">
     </header>
     
     <main>
-      <section>
+      <section class="apresentation container">
         <div>
-          <p>Meu nome é Scheilla, tenho 24 anos e moro no meio-oeste de Santa Catarina.</p>
-          <p>Sou uma menina sonhadora que ama gatos, música, livros e fotografar coisas simples do dia a dia.</p>
+          <p>Meu nome é Scheilla, tenho 24 anos e moro no <br/> meio-oeste de Santa Catarina.</p>
+          <p>Sou uma menina sonhadora que ama gatos, música, <br/>livros e fotografar coisas simples do dia a dia.</p>
+          <p><b>Segue minhas redes sociais.</b></p>
           <div class="social">
-            <img src="assets/images/social/linkedin.png">
-            <img src="assets/images/social/github.png">
-            <img src="assets/images/social/instagram.png">
-            <img src="assets/images/social/twitter.png">
+            <a href="https://www.linkedin.com/in/scheillagiassonartifon/" target="_blank"><img src="assets/images/social/linkedin.png"></a>
+            <a href="https://github.com/scheillaartifon" target="_blank"><img src="assets/images/social/github.png"></a>
+            <a href="https://www.instagram.com/scheillaartifon/" target="_blank"><img src="assets/images/social/instagram.png"></a>
+            <a href="https://twitter.com/scheillaartifon" target="_blank"><img src="assets/images/social/twitter.png"></a>
           </div>
         </div>
-        <div>
-          <img src="assets/images/profile.png">
+        <div class="profile-container">
+          <img class="profile" src="assets/images/profile.png">
         </div>
       </section>
 
-      <section>
+      <section class="skills container">
         <h1>Minhas skills</h1>
         <ul>
-          <li><img src="assets/images/skills/css.png"><small>CSS3</small></li>
-          <li><img src="assets/images/skills/javascript.png"><small>JAVASCRIPT</small></li>
-          <li><img src="assets/images/skills/html.png"><small>HTML5</small></li>
-          <li><img src="assets/images/skills/angular.png"><small>ANGULAR</small></li>
-          <li><img src="assets/images/skills/rubyonrails.png"><small>RUBY ON RAILS</small></li>
-          <li><img src="assets/images/skills/prototipacao.png"><small>PROTOTIPAÇÃO</small></li>
+          <li><div><img src="assets/images/skills/css.png"></div><small>CSS3</small></li>
+          <li><div><img src="assets/images/skills/javascript.png"></div><small>JAVASCRIPT</small></li>
+          <li><div><img src="assets/images/skills/html.png"></div><small>HTML5</small></li>
+          <li><div><img src="assets/images/skills/angular.png"></div><small>ANGULAR</small></li>
+          <li><div><img src="assets/images/skills/rubyonrails.png"></div><small>RUBY ON RAILS</small></li>
+          <li><div><img src="assets/images/skills/prototipacao.png"></div><small>PROTOTIPAÇÃO</small></li>
         </ul>
       </section>
 
-      <section>
-        <article>
-          <p>DIFERENCIAIS</p>
-          <div>
-            <img src="assets/images/differential/differential_prototype.png">
-            <p><b>Montar telas iguais aos protótipos</b></p>
-            <p>Trabalhei durante 1 ano somente montando telas. Recebia layouts e montava as telas exatamente igual ao design criado, sem a utilização de framework.</p>  
-          </div>
-          <div>
-            <img src="assets/images/differential/differential_create_prototype.png">
-            <p><b>Criação de protótipos</b></p>
-            <p>Comecei a estudar Experiência do Usuário ou UX Design e aprendi técnicas para criação de protótipos tanto web quanto mobile.</p>  
-          </div>
-          <div>
-            <img src="assets/images/differential/differential_agile_methodologies.png">
-            <p><b>Métodologias ágeis</b></p>
-            <p>Conhecimento nas metodologias ágeis Scrum e Kanban.</p>  
-          </div>
-        </article>
-        <article>
-          <p>ESTUDOS</p>
-          <div>
-            <img src="assets/images/differential/studying_programming.png">
-            <p><b>Curso de programação</b></p>
-            <p>Durante minha tragetória, descobri que front-end me faz feliz, por isso, no momento estou fazendo o curso do programadorBR para aprimorar meus conhecimentos em front-end.</p>
-          </div>
-          <div>
-            <img src="assets/images/differential/studying_uxdesign.png">
-            <p><b>Experiência do usuário (UX Design)</b></p>
-            <p>Sempre digo que o UX design veio para mudar minha mente. Estou finalizando o curso UX Unicórnio para poder entender como funciona as técnicas para criar experiências melhores aos usuários.</p>
-          </div>
-          <div>
-            <img src="assets/images/differential/studying_book.png">
-            <p><b>Código limpo (Clean Code)</b></p>
-            <p>Após perceber a importancia de códigos bem feitos e reutilizaveis, comecei a ler o livro Clean Code do Robert C Martin para entender melhor como fazer um código limpo e robusto.</p>
-          </div>
-        </article>
-      </section>
+      <section class="differential-container">
+        <div class="container">
+          <article>
+            <p class="differential-title">DIFERENCIAIS</p>
+            <div class="owl-carousel owl-theme">
+              <div class="owl-background">
+                <img src="assets/images/differential/differential_prototype.png">
+                <div>
+                  <p><b>Montar telas iguais aos protótipos</b></p>
+                  <small>Trabalhei durante 1 ano somente montando telas. Recebia layouts e montava as telas exatamente igual ao design criado, sem a utilização de framework.</small>  
+                </div>
+              </div>
+              <div class="owl-background">
+                <img src="assets/images/differential/differential_create_prototype.png">
+                <div>
+                  <p><b>Criação de protótipos</b></p>
+                  <small>Comecei a estudar Experiência do Usuário ou UX Design e aprendi técnicas para criação de protótipos tanto web quanto mobile.</small>  
+                </div>
+              </div>
+              <div class="owl-background">
+                <img src="assets/images/differential/differential_agile_methodologies.png">
+                <div>
+                  <p><b>Métodologias ágeis</b></p>
+                  <small>Conhecimento nas metodologias ágeis Scrum e Kanban.</small>  
+                </div>
+              </div>
+            </div>
+          </article>
+          <article>
+            <p class="differential-title">ESTUDOS</p>
+            <div class="owl-carousel owl-theme">
+              <div class="owl-background">
+                <img src="assets/images/differential/studying_programming.png">
+                <div>
+                  <p><b>Curso de programação</b></p>
+                  <small>Durante minha tragetória, descobri que front-end me faz feliz, por isso, no momento estou fazendo o curso do programadorBR para aprimorar meus conhecimentos em front-end.</small>
+                </div>
+              </div>
+              <div class="owl-background">
+                <img src="assets/images/differential/studying_uxdesign.png">
+                <div>
+                  <p><b>Experiência do usuário (UX Design)</b></p>
+                  <small>Sempre digo que o UX design veio para mudar minha mente. Estou finalizando o curso UX Unicórnio para poder entender como funciona as técnicas para criar experiências melhores aos usuários.</small>
+                </div>
+              </div>
+              <div class="owl-background">
+                <img src="assets/images/differential/studying_book.png">
+                <div>
+                  <p><b>Código limpo (Clean Code)</b></p>
+                  <small>Após perceber a importancia de códigos bem feitos e reutilizaveis, comecei a ler o livro Clean Code do Robert C Martin para entender melhor como fazer um código limpo e robusto.</small>
+                </div>  
+              </div>
+            </div>
+          </article>
+        </div>
+      </section> 
 
-      <section>
+      <section class="about-container container">
         <h1>Mais sobre mim</h1>
-        <article>
-          <img src="assets/images/medium.png">
-          <h3>Medium</h3>
-          <p>Vem conferir meu primeiro case de UX Design</p>
-        </article>
-        <article>
-          <img src="assets/images/linkedin.png">
-          <h3>Linkedin</h3>
-          <p>Veja mais sobre minhas experiências de trabalho</p>
-        </article>
-        <article>
-          <img src="assets/images/github.png">
-          <h3>Github</h3>
-          <p>Saiba mais sobre meus projetos no github</p>
-        </article>
+        <div class="about">
+          <a href="https://sgartifon2405.medium.com/melhorando-e-facilitando-o-acesso-ao-atendimento-psicol%C3%B3gico-de-forma-remota-estudo-de-caso-ux-3669380cd8a7" target="_blank">
+            <img src="assets/images/medium.png">
+            <p><b>Medium</b></p>
+            <small>Vem conferir meu primeiro case de UX Design</small>
+          </a>
+          <a href="https://www.linkedin.com/in/scheillagiassonartifon/" target="_blank">
+            <img src="assets/images/linkedin.png">
+            <p><b>Linkedin</b></p>
+            <small>Veja mais sobre minhas experiências de trabalho</small>
+          </a>
+          <a href="https://github.com/scheillaartifon" target="_blank">
+            <img src="assets/images/github.png">
+            <p><b>Github</b></p>
+            <small>Saiba mais sobre meus projetos no github</small>
+          </a>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>Desenvolvido por Scheilla Artifon</p>
-      <div class="social">
-        <img src="assets/images/social/linkedin_white.png">
-        <img src="assets/images/social/github_white.png">
-        <img src="assets/images/social/instagram_white.png">
-        <img src="assets/images/social/twitter_white.png">
+      <div class="footer container">
+        <small>Desenvolvido por Scheilla Artifon</small>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/scheillagiassonartifon/" target="_blank"><img src="assets/images/social/linkedin_white.png"></a>
+          <a href="https://github.com/scheillaartifon" target="_blank"><img src="assets/images/social/github_white.png"></a>
+          <a href="https://www.instagram.com/scheillaartifon/" target="_blank"><img src="assets/images/social/instagram_white.png"></a>
+          <a href="https://twitter.com/scheillaartifon" target="_blank"><img src="assets/images/social/twitter_white.png"></a>
+        </div>
       </div>
     </footer>
   </body>
 </html>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/javascipt/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop:true,
+      items:1,
+      margin:30,
+      stagePadding:30,
+      smartSpeed:450,
+      autoplay:true,
+      autoplayTimeout:5000,
+    });
+  });
+</script>
