@@ -249,10 +249,14 @@ header img{
     width: 100%;
 }
 
+.about a .about-box{
+    margin: 8px;
+}
+
 .about a p,
 .about a small{
     color: #282828;
-    margin: 8px
+    margin: 8px 0;
 }
 
 .about a:hover p,

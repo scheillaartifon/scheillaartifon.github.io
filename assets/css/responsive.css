@@ -1,0 +1,158 @@
+@media screen and (max-width: 1024px){
+    header{
+        text-align: center;
+    }
+
+    header img {
+        width: 250px;
+    }
+
+    .apresentation{
+        margin: 0;
+    }
+
+    .apresentation .profile {
+        width: 300px;
+    }
+
+    .skills ul li img {
+        width: 100px;
+    }
+
+    .skills small {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .differential-container .container{
+        display: block;
+    }
+
+    .differential-container {
+        margin-top: -85px;
+    }
+
+    .differential-container article{
+        padding: 1px;
+        margin: 15px 0;
+    }
+
+    .about{
+        width: 100%;
+        display: inline-block;
+    }
+
+    .about a{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .about a img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .apresentation{
+        grid-template-columns: auto auto;
+        margin: 40px 0;
+    }
+
+    .apresentation .profile {
+        width: 150px;
+    }
+
+    .apresentation p{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .apresentation .social a {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social .github,
+    .social .linkedin,
+    .social .instagram,
+    .social .twitter{
+        background-size: 28px;
+    }
+
+    h1{
+        font-size: 21px;
+    }
+
+    .skills ul li img {
+        width: 70px;
+    }
+
+    .skills ul {
+        grid-template-columns: auto auto auto;
+        grid-gap: 15px;
+    }
+
+    .differential-container {
+        margin-top: -75px;
+        padding-top: 100px;
+    }
+
+    .mobile-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header {
+        text-align: start;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    .apresentation{
+        flex-direction: column-reverse;
+        display: flex;
+        margin-top: 0;
+    }
+
+    .title .circle {
+        margin: 0 4px;
+    }
+    
+    .differential-container .owl-background {
+        display: inline-block;
+    }
+
+    .differential-container .owl-background img {
+        width: 120px;
+        margin: auto;
+    }
+
+    .about a {
+        padding: 10px;
+    }
+
+    .about a img {
+        width: 100px;
+    }
+
+    footer{
+        margin-top: 20px;
+    }
+
+    footer .footer {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .skills small {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+}
